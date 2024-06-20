@@ -1,0 +1,72 @@
+<DOCTYPE! HTML>
+<html>
+	<head>
+		<title>Form1</title>
+		<style type="text/css">
+			label{
+				width:100px;
+				display:inline-block;
+				margin:4px;
+			}
+			radio{
+				width:100px;
+				display:inline-block;
+				margin:4px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="submit.php" method="post">
+			<div class="form-control">
+				<label>Company : </label>
+				<input type="text" ="company" id="company">	
+			</div><br>
+			<div class="form-control">
+				<label>First Name: </label>
+				<input type="text" name="first_name" id="first_name">
+			</div><br>
+			<div class="form-control">
+				<label>Last Name: </label>
+				<input type="text" name="last_name" id="last_name_name">
+			</div><br>
+			<div class="form-control">
+				<label>Email Address: </label>
+				<input type="text" name="email_address" id="email_address">
+			</div><br>
+			<div class="form-control">
+				<label>Title: </label>
+				<input type="text" name="title" id="title">
+			</div><br>
+			<div class="form-control">
+				<label>Cancle Registration: </label>
+				<input type="checkbox" name="first_name" id="first_name">
+			</div><br>
+			<div>
+				<label for="session">252 Tranning Session 2010:</label>
+				<input type="date" id="birthday" name="birthday">
+			</div><br>
+			<div class="form-control">
+				<label>Job Function</label><br>
+					<input type="radio" name="job_function" value="job_function">
+				<label>Campaign Management</label><br>
+					<input type="radio">
+				<label>CRM Administration</label><br>
+					<input type="radio" name="email_deployment" value="email_deployment">
+				<label>Email Deployment</label><br>
+					<input type="radio" name="partner" value="partner">
+				<label> Partner</label><br>
+					<input type="radio" name="employee" value="employee">
+				<label>Employee</label>
+			</div><br>
+			<div class="form-control">
+				<label>Dietary Requirements:</label>
+				<input type="text" name="dietary_requirements" id="dietary_requirements" ><br>
+					<br>
+				<label>Exception?:</label>
+				<textarea name="message" placeholder="your message"></textarea>
+			</div>
+					<input type="submit">
+
+		</form>
+	</body>
+</html>
